@@ -13,10 +13,10 @@ def login():
     senha = input("Senha: ")
 
     if nome in usuarios and usuarios[nome] == senha:
-        print("Login bem-sucedido! 👏")
+        print("Login bem-sucedido! ")
         return True
     else:
-        print("Usuário ou senha incorretos 😕")
+        print("Usuário ou senha incorreto ")
         return # Menu principal
 while True:
     print("\n1 - Registrar")
